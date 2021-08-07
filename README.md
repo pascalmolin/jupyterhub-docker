@@ -32,7 +32,7 @@ following changes:
 - In [`reverse-proxy/traefik.toml`](reverse-proxy/traefik.toml), edit
   the paths in `certFile` and `keyFile` and point them to your own TLS
   certificates. Possibly edit the `volumes` section in the
-  `reverse-proyx` service in
+  `reverse-proxy` service in
   [`docker-compose.yml`](docker-compose.yml).
 - In
   [`jupyterhub/jupyterhub_config.py`](jupyterhub/jupyterhub_config.py),

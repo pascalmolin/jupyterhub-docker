@@ -34,7 +34,7 @@ services:
       - "8080:8080"
     volumes:
       - ./reverse-proxy/traefik.toml:/etc/traefik/traefik.toml
-      - /etc/certs:/etc/certs
+      - ./certs:/etc/certs
       - /var/run/docker.sock:/var/run/docker.sock
     restart: on-failure
 
